@@ -51,14 +51,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/kmag
-%{_desktopdir}/kde4/kmag.desktop
-%dir %{_datadir}/apps/kmag
-%{_datadir}/apps/kmag/kmagui.rc
-%{_iconsdir}/hicolor/*/actions/followmouse.png
-%{_iconsdir}/hicolor/*/actions/hidemouse.png
-%{_iconsdir}/hicolor/*/actions/window.png
-%{_iconsdir}/hicolor/*/apps/kmag.png
-%{_kdedocdir}/en/kmag
-%{_mandir}/man1/kmag.1*
-
+%attr(755,root,root) %{_bindir}/kmousetool
+%{_desktopdir}/kde4/kmousetool.desktop
+%{_datadir}/apps/kmousetool
+%{_iconsdir}/hicolor/*/actions/kmousetool_off.png
+%{_iconsdir}/hicolor/*/actions/kmousetool_on.png
+%{_iconsdir}/hicolor/*/apps/kmousetool.png
+%{_docdir}/kde/HTML/en/kmousetool
+%{_mandir}/man1/kmousetool.1*
