@@ -4,12 +4,12 @@
 
 Summary:	K Desktop Environment - A program that clicks the mouse for you
 Name:		kde4-%{orgname}
-Version:	4.10.0
+Version:	4.10.4
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	1dafb20c77c1f829a521be500d34b238
+# Source0-md5:	49fb1e71465b5c45763132ad5e32110b
 URL:		http://www.kde.org/
 BuildRequires:	Qt3Support-devel >= %{qtver}
 BuildRequires:	QtCore-devel >= %{qtver}
